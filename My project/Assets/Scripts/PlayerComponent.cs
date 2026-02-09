@@ -4,6 +4,7 @@ public class PlayerComponent : MonoBehaviour
 {
     public enum PlayerColor {Red, Blue, Green}
     public PlayerColor currentColor;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
