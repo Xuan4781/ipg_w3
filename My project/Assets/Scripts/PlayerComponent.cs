@@ -28,14 +28,17 @@ public class PlayerComponent : MonoBehaviour
             case 1:
                 currentColor = PlayerColor.Red;
                 // change color of the door
+                GetComponent<Renderer>().material.color = Color.red;
                 break;
             case 2:
                 currentColor = PlayerColor.Blue;
                 // change color of the door
+                GetComponent<Renderer>().material.color = Color.blue;
                 break;
             case 3: 
                 currentColor = PlayerColor.Green;
                 // change color of the door
+                GetComponent<Renderer>().material.color = Color.green;
                 break;
         }
     }
